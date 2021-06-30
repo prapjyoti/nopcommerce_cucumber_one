@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11005437800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should Successfully Register with valid credentials",
+        "description": "",
+        "id": "register-functionality;user-should-successfully-register-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1485796600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2195009400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 800725300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter first Name \"kelly\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kelly",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterTest.iEnterFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215534600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter last Name \"spencer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spencer",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterTest.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282352600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"kelly.spencer@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kelly.spencer@yahoo.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterTest.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735201400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd1234",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginTest.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181650900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter confirmed password \"abcd1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcd1234",
+                  "offset": 28
+                }
+              ],
+              "location": "RegisterTest.iEnterConfirmedPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22011312000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegisterTest.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113962100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see registration completed successfully",
+            "match": {
+              "location": "RegisterTest.iShouldSeeRegistrationCompletedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Register Functionality",
+    "description": "\r\nAs a user I want to check register functionality",
+    "id": "register-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/register.feature"
+  }
+]

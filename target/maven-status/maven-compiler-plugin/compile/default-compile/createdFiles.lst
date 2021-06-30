@@ -1,0 +1,7 @@
+com\nopcommerce\demo\pages\ComputerPage.class
+com\nopcommerce\demo\basepage\BasePage.class
+com\nopcommerce\demo\pages\HomePage.class
+com\nopcommerce\demo\propertyreader\PropertyReader.class
+com\nopcommerce\demo\pages\RegisterPage.class
+com\nopcommerce\demo\pages\LoginPage.class
+com\nopcommerce\demo\utility\Utility.class
